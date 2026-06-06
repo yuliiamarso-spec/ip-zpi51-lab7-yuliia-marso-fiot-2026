@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6 — Пошук зображень</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.js"></script>
+
+  <script type="module" crossorigin src="/ip-zpi51-lab7-yuliia-marso-fiot-2026/assets/search-Cg1LHSSm.js"></script>
+  <link rel="stylesheet" crossorigin href="/ip-zpi51-lab7-yuliia-marso-fiot-2026/assets/search-Cq1ckM7T.css">
+  <link rel="stylesheet" crossorigin href="/ip-zpi51-lab7-yuliia-marso-fiot-2026/assets/style-jqCYz7WM.css">
+</head>
+
+<body>
+
+<div class="task-page">
+
+    <nav class="task-nav">
+        <a href="index.html">Головна</a>
+        <a href="cart.html">Кошик</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="form.html">Форма</a>
+        <a href="timer.html">Таймер</a>
+        <a href="snackbar.html">Проміси</a>
+        <a href="image-search.html">Пошук</a>
+    </nav>
+
+    <header class="task-header">
+        <h1>Пошук зображень</h1>
+        <p>Pixabay API, Fetch, SimpleLightbox</p>
+    </header>
+
+    <main class="task-box">
+        <form class="search-form">
+            <input type="text" name="searchQuery" placeholder="Search images...">
+            <button type="submit">Search</button>
+        </form>
+
+        <p class="loader hidden">Loading...</p>
+
+        <ul class="search-gallery"></ul>
+    </main>
+
+</div>
+
+</body>
+</html>
