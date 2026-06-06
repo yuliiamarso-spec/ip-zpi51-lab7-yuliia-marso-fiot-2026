@@ -1,3 +1,6 @@
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+
 function initImageSearch() {
 
     const form = document.querySelector(".search-form");
@@ -7,7 +10,7 @@ function initImageSearch() {
     const API_KEY = "32876609-921db117914980b4f2474b1de";
     const BASE_URL = "https://pixabay.com/api/";
 
-    const lightbox = new SimpleLightbox(".search-gallery a");
+    const lightbox = new window.SimpleLightbox(".search-gallery a");
 
     form.addEventListener("submit", function(event) {
         event.preventDefault();

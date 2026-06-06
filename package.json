@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/yuliiamarso-spec/ip-zpi51-lab7-yuliia-marso-fiot-2026#readme",
   "devDependencies": {
+    "css-loader": "^7.1.4",
     "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3"
   }
 }
