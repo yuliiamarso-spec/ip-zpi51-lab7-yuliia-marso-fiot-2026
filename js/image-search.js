@@ -11,7 +11,7 @@ function initImageSearch() {
     const BASE_URL = "https://pixabay.com/api/";
 
     const lightbox = new window.SimpleLightbox(".search-gallery a");
-
+    
     form.addEventListener("submit", function(event) {
         event.preventDefault();
 
